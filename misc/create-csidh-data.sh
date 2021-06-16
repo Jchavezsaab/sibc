@@ -13,7 +13,25 @@ declare -a configuration=(\
     "--prime p1024 --style wd2 --exponent 2" \
     "--prime p1792 --style df --exponent 2" \
     "--prime p1792 --style wd1 --exponent 2" \
-    "--prime p1792 --style wd2 --exponent 1"
+    "--prime p1792 --style wd2 --exponent 1" \
+    "--prime p2048 --style df --exponent 1" \
+    "--prime p2048 --style wd1 --exponent 1" \
+    "--prime p2048 --style wd2 --exponent 1" \
+    "--prime p4096 --style df --exponent 1" \
+    "--prime p4096 --style wd1 --exponent 1" \
+    "--prime p4096 --style wd2 --exponent 1" \
+    "--prime p5120 --style df --exponent 1" \
+    "--prime p5120 --style wd1 --exponent 1" \
+    "--prime p5120 --style wd2 --exponent 1" \
+    "--prime p6144 --style df --exponent 1" \
+    "--prime p6144 --style wd1 --exponent 1" \
+    "--prime p6144 --style wd2 --exponent 1" \
+    "--prime p8192 --style df --exponent 1" \
+    "--prime p8192 --style wd1 --exponent 1" \
+    "--prime p8192 --style wd2 --exponent 1" \
+    "--prime p9216 --style df --exponent 1" \
+    "--prime p9216 --style wd1 --exponent 1" \
+    "--prime p9216 --style wd2 --exponent 1"
     )
 
 for i in `eval echo {0..${#configuration[@]}}`; do
